@@ -4,6 +4,12 @@ parameters:
     locale: '%env(APP_LOCAL)%'
     secure_channel: '%env(SECURE_CHANNEL)%'
     compagny: 'Timite&Sons'
+    facebook: '#'
+    google: '#'
+    twitter: '#'
+    linkedin: '#'
+    address: '#'
+    phonenumber: '+225 00 00 00 00'
 
 services:
     # default configuration for services in *this* file

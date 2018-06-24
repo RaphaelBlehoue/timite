@@ -4,3 +4,9 @@ twig:
     strict_variables: '%kernel.debug%'
     globals:
         compagny: '%compagny%'
+        facebook: '%facebook%'
+        google: '%google%'
+        twitter: '%twitter%'
+        linkedin: '%linkedin%'
+        address: '%address%'
+        phonenumber: '%phonenumber%'
