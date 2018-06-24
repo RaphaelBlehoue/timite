@@ -3,6 +3,7 @@
 parameters:
     locale: '%env(APP_LOCAL)%'
     secure_channel: '%env(SECURE_CHANNEL)%'
+    compagny: 'Timite&Sons'
 
 services:
     # default configuration for services in *this* file

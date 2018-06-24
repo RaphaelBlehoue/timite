@@ -35,13 +35,10 @@
 /*------------------------------------
 	Owl Carousel
 --------------------------------------*/
-    $('.slider-wrapper').owlCarousel({
-        loop:true,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        smartSpeed: 2500,
-        items:1,
-        nav:false,
+    $('.slider-wrapper').slick({
+        autoplay: true,
+        adaptiveHeight: true,
+        arrows: false,
         dots: true
     });
     
@@ -432,6 +429,10 @@
         infinite: true,
         slidesToShow: 1,
         asNavFor: '.product-thumbnail-slider',
+    });
+
+    $('.mega-dropdown').on('click', function (e) {
+        e.stopPropagation()
     });
 
 /*-----------------------------------------

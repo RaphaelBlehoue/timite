@@ -97,7 +97,7 @@
     .display-none{display: none}
     .header-cart.main > i::before{color: #009e90}
     .header-cart.main span{color: #000}
-    .main-header {padding: 15px 0}
+    .main-header {padding: 1px 0}
     .header-cart.main > a {top: -17px}
     .product-seller.owl-carousel .owl-nav {top: -39px}
     .offer-details .timer .timer-grid .cdown {width: 25%}
@@ -188,7 +188,7 @@
     .top-left, .logo.main, .test-content p, .copyright p, .payment {text-align: center}
     .header-cart.main > i::before{color: #009e90}
     .header-cart.main span{color: #fff}
-    .main-header {padding: 15px 0}
+    .main-header {padding: 1px 0}
     .header-cart.main > a{margin-right: 60px; min-width: 80px; background: transparent; min-height: 78px; top: -8px}
     .three .header-cart.main > a, .three.five .header-cart.main > a{margin-right: 60px; min-width: 70px; background: transparent; min-height: 70px; top: -10px}
     .header-cart.main span{font-size: 13px; line-height: 28px}

@@ -1388,7 +1388,7 @@ textarea {
     z-index: 9999;
 }
 .main-header {
-    padding: 25px 0;
+    padding: 1px 0;
     position: relative;
     z-index: 100;
 }
