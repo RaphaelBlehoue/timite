@@ -57,6 +57,15 @@ $(window).load(function(){
 		$("#allbrands .wstabcontent02").find("> div").siblings().removeClass("wsshoptab-active");
 		$($(this).attr("href")).addClass("wsshoptab-active");
 	});
+
+    $("#allcollection .wstabitem02 li").on('mouseenter', function() {
+        $(this).addClass("wsshoplink-active").siblings(this).removeClass("wsshoplink-active");
+    });
+
+    $("#allcollection .wstabitem02 li a").on('mouseenter', function() {
+        $("#allcollection .wstabcontent02").find("> div").siblings().removeClass("wsshoptab-active");
+        $($(this).attr("href")).addClass("wsshoptab-active");
+    });
 	
 	//Just For Cart dropdown
 	$(".wscarticon > a").on('click', function() {
